@@ -1,7 +1,7 @@
 import { mdsvex } from 'mdsvex';
 import gfm from 'remark-gfm';
 import github from 'remark-github';
-import adapter from 'sveltekit-adapter-deno';
+import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import rehypeSlug from 'rehype-slug';
 
